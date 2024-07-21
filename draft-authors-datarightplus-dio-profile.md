@@ -74,6 +74,8 @@ The following people contributed to this document:
 
 {backmatter}
 
+<reference anchor="CDR-RULES" target="https://www.legislation.gov.au/F2020L00094/2023-07-22/text"> <front><title>Competition and Consumer (Consumer Data Right) Rules 2020</title><author><organization>Department of the Treasury</organization></author></front> </reference>
+
 <reference anchor="PROFILE-AU-CDR" target="https://datarightplus.github.io/datarightplus-cdr-profile/draft-authors-datarightplus-cdr-profile.html"> <front><title>DataRight+: Australian CDR Profile</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
 
 <reference anchor="DATARIGHTPLUS-ROSETTA" target="https://datarightplus.github.io/datarightplus-rosetta/draft-authors-datarightplus-rosetta.html"> <front><title>DataRight+ Rosetta Stone</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
