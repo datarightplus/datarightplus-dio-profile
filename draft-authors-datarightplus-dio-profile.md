@@ -24,7 +24,7 @@ email = "stuart@biza.io"
 
 .# Abstract
 
-This is the ecosystem profile for the Australian DataRight+ deployment, an extension upon the Australian Consumer Data Right. This specification seeks to extend, in a non-conflicting way, [@!PROFILE-AU-CDR] to enhance the functionality within the Australian ecosystem. 
+This is the ecosystem profile for the Australian DataRight+ deployment, an extension upon the Australian Consumer Data Right. This specification seeks to extend, in a non-conflicting way, [@!PROFILE-AU-CDR] to enhance the functionality within the Australian ecosystem.
 
 .# Notational Conventions
 
@@ -34,37 +34,27 @@ The keywords "**MUST**", "**MUST NOT**", "**REQUIRED**", "**SHALL**", "**SHALL N
 
 # Scope
 
-The scope of this document is intended to combine the extensions created as part of the DataRight+ initiative into a profile that sits upon the baseline context of the Australian CDR, ostensibly described in [@!PROFILE-AU-CDR]. 
+The scope of this document is intended to combine the extensions created as part of the DataRight+ initiative into a profile that sits upon the baseline context of the Australian CDR, ostensibly described in [@!PROFILE-AU-CDR].
 
 # Terminology
 
 This specification utilises the various terms outlined within [@!DATARIGHTPLUS-ROSETTA].
 
-Banking Sector
-: Relates to the Holders, designated under the [@!CDR-RULES] in the Banking industry
-
-Energy Sector
-: Relates to the Designated Holders, designated under the [@!CDR-RULES] in the Energy industry
-
-Designated Holders
-: Designated Holders are organisations which belong to a designated sector, according to the [@!CDR-RULES] and meet certain eligibility requirements to be required to deliver CDR services within their sector.
-
 # Providers
 
-## Common Provisions
+In addition to complying with the relevant provisions in [@!PROFILE-AU-CDR] Providers:
 
-Providers **MUST**:
-
-1. comply with the Provider provisions outlined in [@!PROFILE-AU-CDR];
+1. **MUST** make available a discovery document as outlined in [@!DATARIGHTPLUS-DISCOVERY];
+2. **MUST** support, where appropriate, the provisions outlined in [@!DATARIGHTPLUS-VERSIONING];
+3. **MAY** support the provisions outlined [@!BULK-BANKING-TX-DETAIL];
 
 # Initiators
 
-## Common Provisions
+In addition to complying with the relevant provisions in [@!PROFILE-AU-CDR] Initiators:
 
-Initiators **MUST**:
-
-1. comply with the Provider provisions outlined in [@!PROFILE-AU-CDR];
-
+1. **MUST** support Enhanced Versioning as outlined in [@!DATARIGHTPLUS-VERSIONING];
+2. **MUST** utilise the Provider discovery document as outlined in [@!DATARIGHTPLUS-DISCOVERY];
+3. **MAY** support accessing the Banking Transaction Detail List as specified by [@!BULK-BANKING-TX-DETAIL]
 
 # Acknowledgement
 
@@ -80,7 +70,9 @@ The following people contributed to this document:
 
 <reference anchor="DATARIGHTPLUS-ROSETTA" target="https://datarightplus.github.io/datarightplus-rosetta/draft-authors-datarightplus-rosetta.html"> <front><title>DataRight+ Rosetta Stone</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
 
+<reference anchor="DATARIGHTPLUS-DISCOVERY" target="https://datarightplus.github.io/datarightplus-discovery/draft-authors-datarightplus-discovery.html"> <front><title>DataRight+: Discovery</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
 
+<reference anchor="DATARIGHTPLUS-ENHANCED-VERSIONING" target="https://datarightplus.github.io/datarightplus-enhanced-versioning/draft-authors-datarightplus-enhanced-versioning.html"> <front><title>DataRight+: Enhanced Endpoint Versioning</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
 
 
 
