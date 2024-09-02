@@ -46,7 +46,8 @@ In addition to complying with the relevant provisions in [@!PROFILE-AU-CDR] Prov
 
 1. **MUST** make available a discovery document as outlined in [@!DATARIGHTPLUS-DISCOVERY];
 2. **MUST** support, where appropriate, the provisions outlined in [@!DATARIGHTPLUS-VERSIONING];
-3. **MAY** support the provisions outlined [@!BULK-BANKING-TX-DETAIL];
+3. **MAY** support delivering the Banking Transaction Detail List as specified by [@!BULK-BANKING-TX-DETAIL]
+4. **MAY** support establishing Sharing Arrangements as specified by [@!DATARIGHTPLUS-SHARING-ARRANGEMENT-V2];
 
 # Initiators
 
@@ -55,6 +56,7 @@ In addition to complying with the relevant provisions in [@!PROFILE-AU-CDR] Init
 1. **MUST** support Enhanced Versioning as outlined in [@!DATARIGHTPLUS-VERSIONING];
 2. **MUST** utilise the Provider discovery document as outlined in [@!DATARIGHTPLUS-DISCOVERY];
 3. **MAY** support accessing the Banking Transaction Detail List as specified by [@!BULK-BANKING-TX-DETAIL]
+4. **MAY** support establishing Sharing Arrangements as specified by [@!DATARIGHTPLUS-SHARING-ARRANGEMENT-V2];
 
 # Acknowledgement
 
@@ -70,10 +72,10 @@ The following people contributed to this document:
 
 <reference anchor="DATARIGHTPLUS-ROSETTA" target="https://datarightplus.github.io/datarightplus-rosetta/draft-authors-datarightplus-rosetta.html"> <front><title>DataRight+ Rosetta Stone</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
 
+<reference anchor="BULK-BANKING-TX-DETAIL" target="https://datarightplus.github.io/datarightplus-banking-bulk-transactions-v1/draft-authors-datarightplus-banking-bulk-transactions-v1.html"> <front><title>DataRight+: Bulk Transaction Detail</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
+
 <reference anchor="DATARIGHTPLUS-DISCOVERY" target="https://datarightplus.github.io/datarightplus-discovery/draft-authors-datarightplus-discovery.html"> <front><title>DataRight+: Discovery</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
 
-<reference anchor="DATARIGHTPLUS-ENHANCED-VERSIONING" target="https://datarightplus.github.io/datarightplus-enhanced-versioning/draft-authors-datarightplus-enhanced-versioning.html"> <front><title>DataRight+: Enhanced Endpoint Versioning</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
+<reference anchor="DATARIGHTPLUS-VERSIONING" target="https://datarightplus.github.io/datarightplus-enhanced-versioning/draft-authors-datarightplus-enhanced-versioning.html"> <front><title>DataRight+: Enhanced Endpoint Versioning</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author></front> </reference>
 
-
-
-
+<reference anchor="DATARIGHTPLUS-SHARING-ARRANGEMENT-V2" target="https://datarightplus.github.io/datarightplus-sharing-arrangement-v2/draft-authors-datarightplus-sharing-arrangement-v2.html"> <front><title>DataRight+: Sharing Arrangement V2</title><author initials="S." surname="Low" fullname="Stuart Low"><organization>Biza.io</organization></author><author initials="B." surname="Kolera" fullname="Ben Kolera"><organization>Biza.io</organization></author></front> </reference>
