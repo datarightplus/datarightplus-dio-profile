@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-30T00:19:38.592488+00:00",
+  "timestamp": "2025-02-11T00:20:04.116447+00:00",
   "repo": "datarightplus/datarightplus-dio-profile",
   "labels": [
     {
@@ -50,5 +50,34 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOMZC3j86KiTF1",
+      "title": "Upgrade to latest github workflow",
+      "url": "https://github.com/datarightplus/datarightplus-dio-profile/pull/1",
+      "state": "MERGED",
+      "author": "perlboy",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-02-09T00:43:02Z",
+      "updatedAt": "2025-02-09T00:43:12Z",
+      "baseRepository": "datarightplus/datarightplus-dio-profile",
+      "baseRefName": "main",
+      "baseRefOid": "0fb6dcce6a5f7333f483e05b013061f512028a5c",
+      "headRepository": "datarightplus/datarightplus-dio-profile",
+      "headRefName": "upgrade-github-workflow",
+      "headRefOid": "1193ea1cd2c3c6825ac02d56e945ef864cfafbf8",
+      "closedAt": "2025-02-09T00:43:11Z",
+      "mergedAt": "2025-02-09T00:43:11Z",
+      "mergedBy": "perlboy",
+      "mergeCommit": {
+        "oid": "92c38b57c860b1eb67db192b000a6f9a42730a2b"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
